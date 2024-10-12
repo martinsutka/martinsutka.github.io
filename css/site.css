@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --mdc-typography-font-family: "Open Sans";
+
+    --mdc-typography-headline1-font-size: 40px;
+    --mdc-typography-headline1-line-height: 40px;
+    --mdc-typography-headline1-font-weight: 700;
+
+    --mdc-theme-background: #19202e;
+    --mdc-theme-primary: #465981;
+    --mdc-theme-secondary: #fe655c;
+
+    background-color: var(--mdc-theme-background);
+    color: var(--mdc-theme-text-primary-on-dark);
+}

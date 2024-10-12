@@ -4,7 +4,8 @@
     "private": true,
     "devDependencies": {
     },
-    "dependencies": { 
+    "dependencies": {
+        "@fontsource/open-sans": "5.1.0",
         "requirejs": "2.3.7",
         "requirejs-text": "2.0.16",
         "material-components-web": "14.0.0",
