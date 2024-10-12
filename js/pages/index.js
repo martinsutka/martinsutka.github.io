@@ -13,6 +13,7 @@ define([
     //#region [ Component registration ]
 
     ko.components.register("msu-intro", { require: "msu/components/intro/intro" });
+    ko.components.register("msu-copyright", { require: "msu/components/copyright/copyright" });
 
     //#endregion
 

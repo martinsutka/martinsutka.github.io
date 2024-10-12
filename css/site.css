@@ -6,10 +6,15 @@ html, body {
 body {
     --mdc-typography-font-family: "Open Sans";
 
-    --mdc-typography-body1-font-family: "Open Sans";
+    --mdc-typography-body1-font-family: var(--mdc-typography-font-family);
     --mdc-typography-body1-font-size: 20px;
     --mdc-typography-body1-line-height: 30px;
     --mdc-typography-body1-font-weight: 400;
+
+    --mdc-typography-body2-font-family: var(--mdc-typography-font-family);
+    --mdc-typography-body2-font-size: 16px;
+    --mdc-typography-body2-line-height: 24px;
+    --mdc-typography-body2-font-weight: 400;
 
     --mdc-typography-headline1-font-size: 40px;
     --mdc-typography-headline1-line-height: 40px;
@@ -19,6 +24,7 @@ body {
     --mdc-theme-surface: #1e2738;
     --mdc-theme-primary: #465981;
     --mdc-theme-secondary: #fe655c;
+    --mdc-theme-link: #629feb;
 
     background-color: var(--mdc-theme-background);
     color: var(--mdc-theme-text-primary-on-dark);
@@ -28,6 +34,15 @@ body {
     margin: 0 auto;
     max-width: 1280px;
     width: 70vw;
+}
+
+a {
+    color: var(--mdc-theme-link);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 /* tablet */
