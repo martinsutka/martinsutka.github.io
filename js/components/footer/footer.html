@@ -1,3 +1,27 @@
-﻿<div class="footer">
-    FOOTER: TODO
+﻿<div class="footer container mdc-layout-grid__inner">
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
+        <h5 class="mdc-typography--headline5">Location</h5>
+        <p class="mdc-typography--body2">Bratislava, Slovakia</p>
+    </div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+        <h5 class="mdc-typography--headline5">Around the Web</h5>
+        <!-- ko if: links().length -->
+            <ul class="footer__links" data-bind="foreach: links">
+                <li>
+                    <a class="footer__link" target="_blank"
+                       data-bind="attr: { href: url, title: title }, html: image"></a>
+                </li>
+            </ul>
+        <!-- /ko -->
+    </div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
+        <h5 class="mdc-typography--headline5">Personal statement</h5>
+        <p class="mdc-typography--body2">
+            If it's important you'll find a way, if it's not, you'll find an excuse.
+            <br>
+            <small>
+                <strong>Ryan Blair</strong>
+            </small>
+        </p>
+    </div>
 </div>

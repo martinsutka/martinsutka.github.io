@@ -20,6 +20,8 @@
 	 */
     let Footer = function (args = {}) {
         console.debug("Footer()");
+
+        this.links = ko.isObservableArray(args.links) ? args.links : ko.observableArray(args.links || cnf.links || []);
     };
 
     //#endregion

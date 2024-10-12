@@ -20,10 +20,14 @@ body {
     --mdc-typography-headline1-line-height: 40px;
     --mdc-typography-headline1-font-weight: 700;
 
+    --mdc-typography-headline5-font-size: 22px;
+    --mdc-typography-headline5-line-height: 30px;
+    --mdc-typography-headline5-font-weight: 500;
+
     --mdc-theme-background: #19202e;
     --mdc-theme-surface: #1e2738;
-    --mdc-theme-primary: #465981;
-    --mdc-theme-secondary: #fe655c;
+    --mdc-theme-primary: #fe655c;
+    --mdc-theme-secondary: #465981;
     --mdc-theme-link: #629feb;
 
     background-color: var(--mdc-theme-background);
