@@ -1,6 +1,6 @@
 ﻿define([
-    "text!./copyright.html",
-    "css!./copyright.css",
+    "text!./footer.html",
+    "css!./footer.css",
     "module",
     "knockout"
 ], (view, css, module, ko) => {
@@ -18,8 +18,8 @@
 	 *
 	 * @param {object} args Arguments.
 	 */
-    let Copyright = function (args = {}) {
-        console.debug("Copyright()");
+    let Footer = function (args = {}) {
+        console.debug("Footer()");
     };
 
     //#endregion
@@ -33,7 +33,7 @@
      * 
      * @param {element} node Html element. 
      */
-    Copyright.prototype.koDescendantsComplete = function (node) {
+    Footer.prototype.koDescendantsComplete = function (node) {
         node.replaceWith(node.firstElementChild);
     };
 
@@ -41,8 +41,8 @@
     /**
      * Dispose.
      */
-    Copyright.prototype.dispose = function () {
-        console.debug("~Copyright()");
+    Footer.prototype.dispose = function () {
+        console.debug("~Footer()");
     };
 
     //#endregion
@@ -57,18 +57,18 @@
      * @param {object} componentInfo Component into.
      * @returns {object} Instance of the model.
      */
-    Copyright.createViewModel = function (params, componentInfo) {
+    Footer.createViewModel = function (params, componentInfo) {
         params = params || {};
         params.element = componentInfo.element.querySelector ? componentInfo.element : componentInfo.element.parentElement || componentInfo.element.parentNode;
 
-        return new Copyright(params);
+        return new Footer(params);
     };
 
     //#endregion
 
     return {
         viewModel: { 
-            createViewModel: Copyright.createViewModel 
+            createViewModel: Footer.createViewModel 
         },
         template: view
     };

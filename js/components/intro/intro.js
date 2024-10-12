@@ -46,7 +46,7 @@
      * Dispose.
      */
     Intro.prototype.dispose = function () {
-        console.log("~Intro()");
+        console.debug("~Intro()");
     };
 
     //#endregion
