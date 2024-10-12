@@ -1,5 +1,6 @@
 ﻿define([
     "text!./intro.html",
+    "css!./intro.css",
     "knockout"
 ], (view, ko) => {
     //#region [ Constructor ]

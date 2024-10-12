@@ -7,6 +7,7 @@ require({
     paths: {
         "knockout": "./lib/knockout-latest",
         "text": "./lib/text",
+        "css": "./lib/css.min",
         "material-components-web": "./lib/material-components-web.min"
     },
     map: {
