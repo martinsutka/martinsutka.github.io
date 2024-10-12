@@ -20,7 +20,8 @@ require({
         },
         "msu/components/intro/intro": {
             title: "Martin Šutka",
-            description: "Software Engineer, Web Developer, and Father in Bratislava, Slovakia"
+            description: "Software Engineer, Web Developer, and Father in Bratislava, Slovakia",
+            image: "img/avatar.jpg"
         }
     }
 }, ["msu/pages/index"]);
