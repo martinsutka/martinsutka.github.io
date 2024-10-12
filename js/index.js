@@ -43,6 +43,21 @@ require({
                 description: "The best step-by-step feature introduction for your web sites, that's a promise!",
                 url: "https://xxxmatko.github.io/tutorial.js",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M216 42H40a14 14 0 0 0-14 14v128a14 14 0 0 0 14 14h61.59l14.25 25a14 14 0 0 0 24.32 0l14.25-25H216a14 14 0 0 0 14-14V56a14 14 0 0 0-14-14m2 142a2 2 0 0 1-2 2h-65.07a6 6 0 0 0-5.21 3l-16 28a2 2 0 0 1-3.48 0l-16-28a6 6 0 0 0-5.21-3H40a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2Z'/></svg>"
+            }, {
+                title: "google drive browser",
+                description: "Simple browser application that makes requests to the Google Drive API.",
+                url: "https://xxxmatko.github.io/google.drive.browser",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M235.9 144.82L167.43 32.58A13.91 13.91 0 0 0 155.56 26h-55.13a13.92 13.92 0 0 0-11.87 6.58v.05L20.13 144.76a14 14 0 0 0-.28 14.37L47.17 207a14 14 0 0 0 12.15 7h137.35a14 14 0 0 0 12.16-7l27.32-47.82a14 14 0 0 0-.25-14.36M222.56 146h-51.17L135 85.33l25.08-41.79Zm-124 0L128 97l29.4 49Zm66 12L191 202H65l26.4-44ZM128 73.67L106.6 38h42.8ZM95.93 43.54L121 85.33L84.6 146H33.43ZM33 158h44.4l-22.73 37.89Zm168.3 37.89L178.59 158H223Z'/></svg>"
+            }, {
+                title: "onedrive browser",
+                description: "Simple browser application that makes requests to the OneDrive API.",
+                url: "https://github.com/xxxmatko/onedrive.browser",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M188.24 164.24a6 6 0 0 1-8.48 0L158 142.49V208a6 6 0 0 1-12 0v-65.51l-21.76 21.75a6 6 0 0 1-8.48-8.48l32-32a6 6 0 0 1 8.48 0l32 32a6 6 0 0 1 0 8.48M160 42a86.1 86.1 0 0 0-77.57 48.88A62 62 0 1 0 72 214h40a6 6 0 0 0 0-12H72a50 50 0 0 1 0-100a51 51 0 0 1 5.91.36A85.5 85.5 0 0 0 74 128a6 6 0 0 0 12 0a74 74 0 1 1 103.6 67.85a6 6 0 0 0 4.8 11A86 86 0 0 0 160 42'/></svg>"
+            }, {
+                title: "boilerplate knockout.js",
+                description: "Application template built with knockout.js and require.js.",
+                url: "https://github.com/xxxmatko/boilerplate-knockout",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M214 120V88a6 6 0 0 0-1.76-4.24l-56-56A6 6 0 0 0 152 26H56a14 14 0 0 0-14 14v80a6 6 0 0 0 12 0V40a2 2 0 0 1 2-2h90v50a6 6 0 0 0 6 6h50v26a6 6 0 0 0 12 0m-56-73.52L193.52 82H158ZM66 160v48a6 6 0 0 1-12 0v-18H30v18a6 6 0 0 1-12 0v-48a6 6 0 0 1 12 0v18h24v-18a6 6 0 0 1 12 0m56 0a6 6 0 0 1-6 6h-10v42a6 6 0 0 1-12 0v-42H84a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6m72 0v48a6 6 0 0 1-12 0v-30l-13.2 17.6a6 6 0 0 1-9.6 0L146 178v30a6 6 0 0 1-12 0v-48a6 6 0 0 1 10.8-3.6L164 182l19.2-25.6A6 6 0 0 1 194 160m56 48a6 6 0 0 1-6 6h-28a6 6 0 0 1-6-6v-48a6 6 0 0 1 12 0v42h22a6 6 0 0 1 6 6'/></svg>"
             }]
         },
         "msu/components/footer/footer": {
