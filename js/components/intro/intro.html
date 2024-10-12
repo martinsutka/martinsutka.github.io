@@ -3,5 +3,18 @@
         <img class="intro__avatar" data-bind="attr: { src: image }" />
     <!-- /ko -->
     <h1 class="intro__title mdc-typography--headline1" data-bind="text: title"></h1>
-    <p class="intro__description mdc-typography--body1" data-bind="text: description"></p>
+    <!-- ko foreach: description -->
+    <p class="intro__description mdc-typography--body1" data-bind="html: $data"></p>
+    <!-- /ko -->
+    <!-- ko if: action -->
+        <p class="intro__action" data-bind="with: action">
+            <a class="mdc-fab mdc-fab--extended" data-bind="attr: { href: url }">
+                <span class="mdc-fab__ripple"></span>
+                <!-- ko if: icon -->
+                <span class="material-icons mdc-fab__icon" data-bind="text: icon"></span>
+                <!-- /ko -->
+                <span class="mdc-fab__label" data-bind="text: text"></span>
+            </a>
+        </p>
+    <!-- /ko -->
 </div>

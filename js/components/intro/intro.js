@@ -22,8 +22,9 @@
         console.debug("Intro()");
 
         this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || cnf.title || "");
-        this.description = ko.isObservable(args.description) ? args.description : ko.observable(args.description || cnf.description || "");
+        this.description = ko.isObservableArray(args.description) ? args.description : ko.observableArray(args.description || cnf.description || []);
         this.image = ko.isObservable(args.image) ? args.image : ko.observable(args.image || cnf.image || "");
+        this.action = ko.isObservable(args.action) ? args.action : ko.observable(args.action || cnf.action || null);
     };
 
     //#endregion

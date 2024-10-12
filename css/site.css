@@ -40,12 +40,12 @@ body {
     width: 70vw;
 }
 
-a {
+a:not(.mdc-fab) {
     color: var(--mdc-theme-link);
     text-decoration: none;
 }
 
-a:hover{
+a:not(.mdc-fab):hover{
     text-decoration: underline;
 }
 

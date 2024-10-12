@@ -20,8 +20,16 @@ require({
         },
         "msu/components/intro/intro": {
             title: "Martin Šutka",
-            description: "Software Engineer, Web Developer, and Father in Bratislava, Slovakia",
-            image: "img/avatar.jpg"
+            description: [
+                "Software Engineer, Web Developer, and Father in Bratislava, Slovakia",
+                "You can click the button below to view my repo. If you’d like to get in touch, feel free to say hello through any of the social links."
+            ],
+            image: "img/avatar.jpg",
+            action: {
+                text: "View my repo",
+                icon: "code",
+                url: "https://github.com/xxxmatko?tab=repositories"
+            }
         },
         "msu/components/footer/footer": {
             links: [{
