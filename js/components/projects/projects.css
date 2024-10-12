@@ -1,0 +1,38 @@
+﻿.projects {
+    background-color: var(--mdc-theme-surface);
+    padding: 48px;
+    border-radius: .5rem;
+}
+
+.projects__title {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.project__icon {
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid var(--mdc-theme-text-hint-on-dark);
+    width: 94px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.project__icon svg {
+    width: 54px;
+    height: 54px;
+    color: var(--mdc-theme-icon);
+}
+
+.project__description {
+    color: var(--mdc-theme-text-secondary-on-dark);
+}

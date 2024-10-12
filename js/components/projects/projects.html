@@ -1,0 +1,22 @@
+﻿<div class="projects">
+    <h1 class="projects__title mdc-typography--headline1" data-bind="text: title"></h1>
+    <!-- ko if: items().length -->
+    <div class="mdc-layout-grid__inner" data-bind="foreach: items">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
+            <div class="project">
+                <div class="project__icon" data-bind="html: icon"></div>
+                <h3 class="mdc-typography--headline3" data-bind="text: title"></h3>
+                <p class="project__description mdc-typography--body1" data-bind="html: description"></p>
+                <p>
+                    <a class="mdc-button mdc-button--icon-trailing" data-bind="attr: { href: url }">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__focus-ring"></span>
+                        <span class="mdc-button__label">View more</span>
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">east</i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>

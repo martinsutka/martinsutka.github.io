@@ -20,6 +20,10 @@ body {
     --mdc-typography-headline1-line-height: 40px;
     --mdc-typography-headline1-font-weight: 700;
 
+    --mdc-typography-headline3-font-size: 26px;
+    --mdc-typography-headline3-line-height: 32px;
+    --mdc-typography-headline3-font-weight: 600;
+
     --mdc-typography-headline5-font-size: 22px;
     --mdc-typography-headline5-line-height: 30px;
     --mdc-typography-headline5-font-weight: 500;
@@ -29,6 +33,7 @@ body {
     --mdc-theme-primary: #fe655c;
     --mdc-theme-secondary: #465981;
     --mdc-theme-link: #629feb;
+    --mdc-theme-icon: #d7dde9;
 
     background-color: var(--mdc-theme-background);
     color: var(--mdc-theme-text-primary-on-dark);
@@ -40,12 +45,12 @@ body {
     width: 70vw;
 }
 
-a:not(.mdc-fab) {
+a:not(.mdc-fab):not(.mdc-button) {
     color: var(--mdc-theme-link);
     text-decoration: none;
 }
 
-a:not(.mdc-fab):hover{
+a:not(.mdc-fab):not(.mdc-button):hover{
     text-decoration: underline;
 }
 
