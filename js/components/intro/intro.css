@@ -7,4 +7,5 @@
 
 .intro__description {
     text-align: center;
+    color: var(--mdc-theme-text-secondary-on-dark);
 }

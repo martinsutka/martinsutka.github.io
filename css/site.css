@@ -6,6 +6,11 @@ html, body {
 body {
     --mdc-typography-font-family: "Open Sans";
 
+    --mdc-typography-body1-font-family: "Open Sans";
+    --mdc-typography-body1-font-size: 20px;
+    --mdc-typography-body1-line-height: 30px;
+    --mdc-typography-body1-font-weight: 400;
+
     --mdc-typography-headline1-font-size: 40px;
     --mdc-typography-headline1-line-height: 40px;
     --mdc-typography-headline1-font-weight: 700;
