@@ -12,8 +12,7 @@ define([
 
     //#region [ Component registration ]
 
-    //ko.components.register("my-gantt-api", { require: "my/components/gantt/api/api" });
-    //ko.components.register("my-gantt-hub", { require: "my/components/gantt/hub/hub" });
+    ko.components.register("msu-intro", { require: "msu/components/intro/intro" });
 
     //#endregion
 
@@ -40,23 +39,9 @@ define([
     //#region [ Start ]
 
     ready(() => {
-        console.warn("ready", module.config());
-        // // Start knockout
-        // ko.applyBindings({
-        //     lang: i18n.language,
-        //     router: router,
-        //     query: query,
-        //     hash: hash,
-        //     projectId: vss.getWebContext().project.id,
-        //     projectName: vss.getWebContext().project.name,
-        //     collectionUri: webContext.collection.uri,
-        //     witClient: WorkItemTrackingClient.getClient()                
-        // }, doc.body, function (context) {
-        //     context.router = router;
-
-        //     // Notify about success
-        //     vss.notifyLoadSucceeded();
-        // });
+        ko.applyBindings(module.config(), doc.body, (context) => {
+            //context.router = router;
+        });
     });
 
     //#endregion
