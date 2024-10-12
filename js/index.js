@@ -16,10 +16,11 @@ require({
     },
     config: {
         "msu/pages/index": {
-            version: "1.0.0",
-            intro: {
-                title: "Martin Šutka"
-            }
+            version: "1.0.0"
+        },
+        "msu/components/intro/intro": {
+            title: "Martin Šutka",
+            description: "Software Engineer, Web Developer, and Father in Bratislava, Slovakia"
         }
     }
 }, ["msu/pages/index"]);

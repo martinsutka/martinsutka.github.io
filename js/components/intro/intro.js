@@ -1,8 +1,16 @@
 ﻿define([
     "text!./intro.html",
     "css!./intro.css",
+    "module",
     "knockout"
-], (view, css, ko) => {
+], (view, css, module, ko) => {
+    //#region [ Fields ]
+    
+    const cnf = module.config();
+    
+    //#endregion
+
+
     //#region [ Constructor ]
 
     /**
@@ -13,7 +21,8 @@
     let Intro = function (args = {}) {
         console.debug("Intro()");
 
-        this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || "");
+        this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || cnf.title);
+        this.description = ko.isObservable(args.description) ? args.description : ko.observable(args.description || cnf.description);
     };
 
     //#endregion
