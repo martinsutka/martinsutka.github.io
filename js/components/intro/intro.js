@@ -2,7 +2,7 @@
     "text!./intro.html",
     "css!./intro.css",
     "knockout"
-], (view, ko) => {
+], (view, css, ko) => {
     //#region [ Constructor ]
 
     /**
@@ -10,8 +10,10 @@
 	 *
 	 * @param {object} args Arguments.
 	 */
-    let Intro = function (args) {
+    let Intro = function (args = {}) {
         console.debug("Intro()");
+
+        this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || "");
     };
 
     //#endregion

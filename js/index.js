@@ -16,7 +16,10 @@ require({
     },
     config: {
         "msu/pages/index": {
-            version: "1.0.0"
+            version: "1.0.0",
+            intro: {
+                title: "Martin Šutka"
+            }
         }
     }
 }, ["msu/pages/index"]);
