@@ -22,6 +22,7 @@
         console.debug("Timeline()");
         
         this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || cnf.title || "");
+        this.items = ko.isObservableArray(args.items) ? args.items : ko.observableArray(args.items || cnf.items || []);
     };
 
     //#endregion

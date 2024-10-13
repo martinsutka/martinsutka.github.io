@@ -71,7 +71,7 @@ a:not(.mdc-fab):not(.mdc-button):hover{
     padding: 0;
 }
 
-.mdc-chip-set .mdc-chip:first-child {
+.mdc-chip-set .mdc-chip {
     margin-left: 0;
 }
 

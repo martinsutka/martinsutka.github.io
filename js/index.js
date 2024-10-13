@@ -16,7 +16,18 @@ require({
     },
     config: {
         "msu/pages/index": {
-            version: "1.0.0"
+            version: "1.0.0",
+            experience: {
+                title: "Experience",
+                items: [{
+                    title: "Head of Enterprise Application Development",
+                    subtitle: "Alanata, Inc., Bratislava, Slovakia",
+                    start: "November 2023",
+                    end: "Current",
+                    description: "Leading and managing technical development team, oversee dev operations, setting and evaluating people performance objectives and growing the team, collaborating with other departments across the company.",
+                    tags: "java,.net,scrum,html,css,less,c#,sql,oracle,xml,javascript,azure devops,jira,iis,linq,rest,soap,uml".split(",")
+                }]
+            }
         },
         "msu/components/intro/intro": {
             title: "Martin Šutka",
