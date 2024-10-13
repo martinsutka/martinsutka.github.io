@@ -69,6 +69,17 @@ require({
                     start: "2005",
                     end: "2008"
                 }]
+            },
+            blog: {
+                title: "Blog",
+                description: [
+                    "Dňa 11. 5. 2023 sa v Bratislave konala IT vývojárska konferencia CodeCon určená pre všetkých inteligentných, introverných, extrovertných a aj štipku uletených vývojárov..."
+                ],
+                image: "empty",
+                action: {
+                    text: "Read more",
+                    url: "https://xxxmatko.github.io/blog/#codecon-2023"
+                }
             }
         },
         "msu/components/skills/skills": {
