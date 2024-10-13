@@ -2,8 +2,9 @@
     "text!./map.html",
     "css!./map.css",
     "module",
-    "knockout"
-], (view, css, module, ko) => {
+    "knockout",
+    "leaflet"
+], (view, css, module, ko, leaflet) => {
     //#region [ Fields ]
     
     const cnf = module.config();
@@ -36,6 +37,28 @@
      * @param {element} node Html element. 
      */
     Map.prototype.koDescendantsComplete = function (node) {
+        // Create map
+        const map = leaflet
+            .map(node.firstElementChild)
+            .setView([48.156220, 17.141770], 17);
+        map.scrollWheelZoom.disable();
+
+        // Add layer
+        leaflet.tileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {}).addTo(map);  
+
+        // Add marker
+        leaflet.marker([48.156220, 17.141770], {
+                icon: L.icon({
+                    iconUrl: "img/leaflet/marker-icon.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [0, 20],
+                    popupAnchor: [13, -20]
+                })
+            })
+            .addTo(map)
+            .bindPopup("<strong>EmaIT s.r.o.</strong><br>Líščie Nivy 25, 821 08 Ružinov")
+            .openPopup();
+
         node.replaceWith(node.firstElementChild);
     };
 
