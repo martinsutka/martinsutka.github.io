@@ -157,6 +157,60 @@ require({
                 date: "2013",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
                 url: "files/certificates/MCTS_Silverlight-4-Developmen.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Professional Developer (MCPD)",
+                subtitle: "Windows Developer 4",
+                date: "2013",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCPD_Windows-Developer-4.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Professional Developer (MCPD)",
+                subtitle: "Silverlight Developer 4",
+                date: "2013",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCPD_Silverlight-Developer-4.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Solutions Developer (MCSD)",
+                subtitle: "Web Applications",
+                date: "2013",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCSD_Web-Applications_Inactive.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Technology Specialist (MCTS)",
+                subtitle: ".NET Framework 4, Data Access",
+                date: "2012",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCTS_NET-Framework-4_Data-Access.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Technology Specialist (MCTS)",
+                subtitle: ".NET Framework 4, Service Communication Applications",
+                date: "2012",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCTS_NET-Framework-4_Service-Communication-Applications.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Technology Specialist (MCTS)",
+                subtitle: ".NET Framework 4, Windows Applications",
+                date: "2012",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCTS_NET-Framework-4_Windows-Applications.pdf",
+            }, {
+                title: "Microsoft&reg; Specialist (MS)",
+                subtitle: "Programming in HTML5 with JavaScript and CSS3 Specialist",
+                date: "2012",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MS_Programming-in-HTML5-with-JavaScript-and-CSS3.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Professional Developer (MCPD)",
+                subtitle: "Web Developer 4",
+                date: "2012",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCPD_Web-Developer-4.pdf",
+            }, {
+                title: "Microsoft&reg; Certified Technology Specialist (MCTS)",
+                subtitle: ".NET Framework 4, Web Applications",
+                date: "2011",
+                icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M208 138h-80a6 6 0 0 0-6 6v57.45a6 6 0 0 0 4.93 5.91l80 14.54a5.5 5.5 0 0 0 1.07.1a6 6 0 0 0 6-6v-72a6 6 0 0 0-6-6m-6 70.81l-68-12.36V150h68ZM96 138H32a6 6 0 0 0-6 6v40a6 6 0 0 0 4.93 5.9l64 11.64a6.4 6.4 0 0 0 1.07.1a6 6 0 0 0 6-6V144a6 6 0 0 0-6-6m-6 50.45L38 179v-29h52ZM211.84 35.39a6 6 0 0 0-4.91-1.29l-80 14.54a6 6 0 0 0-4.93 5.91V112a6 6 0 0 0 6 6h80a6 6 0 0 0 6-6V40a6 6 0 0 0-2.16-4.61M202 106h-68V59.55l68-12.36ZM99.84 55.76a6 6 0 0 0-4.91-1.3l-64 11.64A6 6 0 0 0 26 72v40a6 6 0 0 0 6 6h64a6 6 0 0 0 6-6V60.36a6 6 0 0 0-2.16-4.6M90 106H38V77l52-9.46Z'/></svg>",
+                url: "files/certificates/MCTS_NET-Framework-4_Web-Applications.pdf",
             }]
         },
         "msu/components/footer/footer": {
