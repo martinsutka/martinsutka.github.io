@@ -22,7 +22,9 @@
     let Map = function (args = {}) {
         console.debug("Map()");
         
-        //this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || cnf.title || "");
+        this.marker = ko.isObservable(args.marker) ? args.marker : ko.observable(args.marker || cnf.marker || []);
+        this.zoom = ko.isObservable(args.zoom) ? args.zoom : ko.observable(args.zoom || cnf.zoom || 17);
+        this.popup = ko.isObservable(args.popup) ? args.popup : ko.observable(args.popup || cnf.popup || "");
     };
 
     //#endregion
@@ -40,14 +42,14 @@
         // Create map
         const map = leaflet
             .map(node.firstElementChild)
-            .setView([48.156220, 17.141770], 17);
+            .setView(this.marker(), this.zoom());
         map.scrollWheelZoom.disable();
 
         // Add layer
         leaflet.tileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {}).addTo(map);  
 
         // Add marker
-        leaflet.marker([48.156220, 17.141770], {
+        leaflet.marker(this.marker(), {
                 icon: L.icon({
                     iconUrl: "img/leaflet/marker-icon.png",
                     iconSize: [25, 41],
@@ -56,7 +58,7 @@
                 })
             })
             .addTo(map)
-            .bindPopup("<strong>EmaIT s.r.o.</strong><br>Líščie Nivy 25, 821 08 Ružinov")
+            .bindPopup(this.popup())
             .openPopup();
 
         node.replaceWith(node.firstElementChild);

@@ -235,6 +235,9 @@ require({
             target: "martin.sutka@gmail.com"
         },
         "msu/components/map/map": {
+            marker: [48.156220, 17.141770],
+            zoom: 17,
+            popup: "<strong>Test</strong><br>test"
         },
         "msu/components/footer/footer": {
             links: [{
