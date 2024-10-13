@@ -1,0 +1,9 @@
+﻿.certifications {
+    background-color: var(--mdc-theme-surface);
+    padding: 48px;
+    border-radius: .5rem;
+}
+
+.certifications__title {
+    text-align: center;
+}
