@@ -19,6 +19,10 @@
     flex: 1;
 }
 
+.certificate__title small {
+    color: var(--mdc-theme-text-secondary-on-dark);
+}
+
 .certificate__subtitle {
     width: 100%;
     margin-top: 8px;

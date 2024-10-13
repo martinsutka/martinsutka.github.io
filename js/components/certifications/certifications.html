@@ -5,7 +5,13 @@
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-phone">
             <div class="certificate">
                 <span data-bind="html: icon"></span>
-                <h3 class="certificate__title mdc-typography--headline3" data-bind="html: title"></h3>
+                <h3 class="certificate__title mdc-typography--headline3">
+                    <span data-bind="html: title"></span>
+                    <!-- ko if: $data.subtitle -->
+                    <br>
+                    <small data-bind="text: subtitle"></small>
+                    <!-- /ko-->
+                </h3>
                 <h3 class="certificate__subtitle mdc-typography--subtitle2" data-bind="text: date"></h3>
                 <a class="mdc-button mdc-button--icon-trailing" data-bind="attr: { href: url }">
                     <span class="mdc-button__ripple"></span>
