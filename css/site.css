@@ -54,6 +54,31 @@ a:not(.mdc-fab):not(.mdc-button):hover{
     text-decoration: underline;
 }
 
+.mdc-chip {
+    pointer-events: none;
+    border-radius: 4px;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 600;
+    line-height: 14px;
+    height: 28px;
+    background: var(--mdc-theme-text-icon-on-light);
+    color: var(--mdc-theme-primary);
+}
+
+.mdc-chip-set {
+    padding: 0;
+}
+
+.mdc-chip-set .mdc-chip:first-child {
+    margin-left: 0;
+}
+
+.mdc-chip-set .mdc-chip:last-child {
+    margin-right: 0;
+}
+
 /* tablet */
 @media (max-width:839px) {
     .container {
