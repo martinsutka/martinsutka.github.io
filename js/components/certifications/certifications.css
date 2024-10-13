@@ -29,5 +29,6 @@
     width: 54px;
     height: 54px;
     color: var(--mdc-theme-icon);
+    fill: var(--mdc-theme-icon);
     margin-right: 10px;
 }
