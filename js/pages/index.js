@@ -15,6 +15,7 @@ define([
     ko.components.register("msu-intro", { require: "msu/components/intro/intro" });
     ko.components.register("msu-projects", { require: "msu/components/projects/projects" });
     ko.components.register("msu-timeline", { require: "msu/components/timeline/timeline" });
+    ko.components.register("msu-skills", { require: "msu/components/skills/skills" });
     ko.components.register("msu-copyright", { require: "msu/components/copyright/copyright" });
     ko.components.register("msu-footer", { require: "msu/components/footer/footer" });
 

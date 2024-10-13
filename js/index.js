@@ -71,6 +71,9 @@ require({
                 }]
             }
         },
+        "msu/components/skills/skills": {
+            title: "Skills"
+        },
         "msu/components/intro/intro": {
             title: "Martin Šutka",
             description: [

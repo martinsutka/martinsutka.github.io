@@ -28,6 +28,10 @@ body {
     --mdc-typography-headline5-line-height: 30px;
     --mdc-typography-headline5-font-weight: 500;
 
+    --mdc-typography-headline6-font-size: 18px;
+    --mdc-typography-headline6-line-height: 28px;
+    --mdc-typography-headline6-font-weight: 500;
+
     --mdc-theme-background: #19202e;
     --mdc-theme-surface: #1e2738;
     --mdc-theme-primary: #fe655c;
