@@ -233,6 +233,8 @@ require({
             title: "Contact Me",
             target: "martin.sutka@gmail.com"
         },
+        "msu/components/map/map": {
+        },
         "msu/components/footer/footer": {
             links: [{
                 title: "LinkedIn",

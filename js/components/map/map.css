@@ -1,0 +1,5 @@
+﻿.map {
+    background-color: var(--mdc-theme-surface);
+    height: 80vh;
+    border-radius: .5rem;
+}

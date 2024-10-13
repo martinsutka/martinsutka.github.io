@@ -18,6 +18,7 @@ define([
     ko.components.register("msu-skills", { require: "msu/components/skills/skills" });
     ko.components.register("msu-certifications", { require: "msu/components/certifications/certifications" });
     ko.components.register("msu-contactform", { require: "msu/components/contactform/contactform" });
+    ko.components.register("msu-map", { require: "msu/components/map/map" });
     ko.components.register("msu-copyright", { require: "msu/components/copyright/copyright" });
     ko.components.register("msu-footer", { require: "msu/components/footer/footer" });
 
