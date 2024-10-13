@@ -72,7 +72,20 @@ require({
             }
         },
         "msu/components/skills/skills": {
-            title: "Skills"
+            title: "Skills",
+            items: [
+                { text: "C#", value: 5 },
+                { text: "JavaScript", value: 5 },
+                { text: "SQL", value: 4 },
+                { text: "UML", value: 5 },
+                { text: ".NET", value: 5 },
+                { text: "CSS", value: 5 },
+                { text: "HTML", value: 5 },
+                { text: "XML", value: 5 },
+                { text: "Azure DevOps Server", value: 5 },
+                { text: "SCRUM", value: 5 },
+                { text: "UI/UX", value: 4 }
+            ]
         },
         "msu/components/intro/intro": {
             title: "Martin Šutka",
