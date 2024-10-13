@@ -229,6 +229,9 @@ require({
                 url: "files/certificates/MCTS_NET-Framework-4_Web-Applications.pdf",
             }]
         },
+        "msu/components/contactform/contactform": {
+            title: "Contact Me"
+        },
         "msu/components/footer/footer": {
             links: [{
                 title: "LinkedIn",
