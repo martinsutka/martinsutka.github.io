@@ -1,0 +1,9 @@
+﻿.timeline {
+    background-color: var(--mdc-theme-surface);
+    padding: 48px;
+    border-radius: .5rem;
+}
+
+.timeline__title {
+    text-align: center;
+}
