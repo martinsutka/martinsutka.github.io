@@ -55,6 +55,20 @@ require({
                     description: "Developing and designing of intranet applications used worldwide by all employees of the company using ASP.NET technology. Designing of database systems using MS SQL databases.",
                     tags: "asp.net,javascript,html,css,c#,sql,sql-server,xml,linq,tfs,mockups,uml,visio,jquery,svn".split(",")
                 }]
+            },
+            education: {
+                title: "Education",
+                items: [{
+                    title: "Master's Degree in Applied Informatics",
+                    subtitle: "Faculty of Electrical Engineering and Information Technology, Slovak University of Technology in Bratislava",
+                    start: "2008",
+                    end: "2010"
+                }, {
+                    title: "Bachelor degree in Applied Informatics",
+                    subtitle: "Faculty of Electrical Engineering and Information Technology, Slovak University of Technology in Bratislava",
+                    start: "2005",
+                    end: "2008"
+                }]
             }
         },
         "msu/components/intro/intro": {
