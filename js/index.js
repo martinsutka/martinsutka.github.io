@@ -23,9 +23,37 @@ require({
                     title: "Head of Enterprise Application Development",
                     subtitle: "Alanata, Inc., Bratislava, Slovakia",
                     start: "November 2023",
-                    end: "Current",
-                    description: "Leading and managing technical development team, oversee dev operations, setting and evaluating people performance objectives and growing the team, collaborating with other departments across the company.",
+                    end: "Present",
+                    description: "Head of the department responsible for the development of enterprise solutions for the end customers and team leader. Overseeing dev operations, implementing the SCRUM process, setting goals for the department and evaluating performance. Information systems architecture design. Design and implementation of database systems.",
                     tags: "java,.net,scrum,html,css,less,c#,sql,oracle,xml,javascript,azure devops,jira,iis,linq,rest,soap,uml".split(",")
+                }, {
+                    title: "Head of Implementation Department",
+                    subtitle: "Slovanet, Inc., Bratislava, Slovakia",
+                    start: "April 2019",
+                    end: "October 2023",
+                    description: "Head of the department responsible for the development of enterprise solutions for the end customers and for the company itself. Technical Leader. Overseeing dev operations, implementing the SCRUM process, setting goals for the department and evaluating performance. Designing and developing of applications using .NET technologies. Designing of database systems. Object Oriented Analysis and Design. Member of the company's management.",
+                    tags: ".net,razor,html,css,less,c#,blazor,sql,sql-server,oracle,xml,javascript,jquery,dojo,azure devops,entity-framework,iis,linq,leaflet,wcf,ajax,rest,soap,scrum,knockout.js,uml".split(",")
+                }, {
+                    title: "Software architect, Head of Implementation Department",
+                    subtitle: "Zymestic Solutions, Ltd., Bratislava, Slovakia",
+                    start: "October 2010",
+                    end: "March 2019",
+                    description: "Technical Leader. Designing and developing of Web applications especially GIS applications using .NET technologies. Designing of database systems. Object Oriented Analysis and Design.",
+                    tags: "asp.net,asp.net-mvc,razor,html,css,less,c#,sql,sql-server,oracle,xml,javascript,jquery,dojo,tfs,entity-framework,iis,linq,esri,arcgis,arcgis-js-api,leaflet,wcf,ajax,rest,soap,scrum,knockout.js,uml".split(",")
+                }, {
+                    title: "Software developer",
+                    subtitle: "Kentico Software, Ltd., Brno, Czech Republic",
+                    start: "July 2010",
+                    end: "September 2010",
+                    description: "Developing and designing of an application (Kentico CMS) used worldwide, using ASP.NET technology. Designing of database systems using MS SQL databases.",
+                    tags: "asp.net,javascript,html,css,c#,sql,sql-server,xml,tfs,mockups,uml,jquery".split(",")
+                }, {
+                    title: "Software developer",
+                    subtitle: "ON Semiconductor Slovakia, Inc, Bratislava, Slovakia",
+                    start: "April 2007",
+                    end: "June 2010",
+                    description: "Developing and designing of intranet applications used worldwide by all employees of the company using ASP.NET technology. Designing of database systems using MS SQL databases.",
+                    tags: "asp.net,javascript,html,css,c#,sql,sql-server,xml,linq,tfs,mockups,uml,visio,jquery,svn".split(",")
                 }]
             }
         },
