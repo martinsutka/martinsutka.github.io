@@ -4,6 +4,34 @@
     border-radius: .5rem;
 }
 
+.contactform .mdc-text-field {
+    width: 100%;
+}
+
 .contactform__title {
     text-align: center;
+}
+
+.contactform__actions {
+    text-align: center;
+}
+
+.contactform__form {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 70vw;
+}
+
+/* tablet */
+@media (max-width:839px) {
+    .contactform__form {
+        width: 98%;
+    }
+}
+
+/* phone */
+@media (max-width: 599px) {
+    .contactform__form {
+        width: 98%;
+    }
 }

@@ -230,7 +230,8 @@ require({
             }]
         },
         "msu/components/contactform/contactform": {
-            title: "Contact Me"
+            title: "Contact Me",
+            target: "martin.sutka@gmail.com"
         },
         "msu/components/footer/footer": {
             links: [{
