@@ -84,6 +84,11 @@ require({
             }
         },
         "msu/components/menu/menu": {
+            title: "Martin Šutka",
+            description: [
+                "Software Engineer, Web Developer, and Father in Bratislava, Slovakia"
+            ],
+            image: "img/avatar.jpg",
             items: [
                 { target: "about", text: "About" },
                 { target: "projects", text: "Projects" },

@@ -1,10 +1,15 @@
 ﻿<div>
     <div class="drawer mdc-drawer mdc-drawer--modal">
-        <div class="mdc-drawer__header" data-bind="visible: false">
-            <i class="material-icons drawer__icon">account</i>
-            <h3 class="drawer__title mdc-drawer__title"></h3>
-            <h6 class="drawer__subtitle mdc-drawer__subtitle">&nbsp;</h6>
-            <h6 class="drawer__subtitle mdc-drawer__subtitle">&nbsp;</h6>
+        <div class="mdc-drawer__header">
+            <!-- ko if: image().length && image() !== 'empty'-->
+            <span class="drawer__icon">
+                <img class="drawer__avatar" data-bind="attr: { src: image }" />
+            </span>
+            <!-- /ko -->
+            <h3 class="drawer__title mdc-drawer__title" data-bind="text: title"></h3>
+            <!-- ko foreach: description -->
+                <h6 class="drawer__subtitle mdc-drawer__subtitle" data-bind="html: $data"></h6>
+            <!-- /ko -->
         </div>
         <div class="mdc-drawer__content">
             <nav class="mdc-deprecated-list" data-bind="foreach: items">

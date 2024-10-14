@@ -26,6 +26,9 @@
 
         this.drawer = null;
         this.items = ko.isObservableArray(args.items) ? args.items : ko.observableArray(args.items || cnf.items || []);
+        this.title = ko.isObservable(args.title) ? args.title : ko.observable(args.title || cnf.title || "");
+        this.description = ko.isObservableArray(args.description) ? args.description : ko.observableArray(args.description || cnf.description || []);
+        this.image = ko.isObservable(args.image) ? args.image : ko.observable(args.image || cnf.image || "");
     };
 
     //#endregion
