@@ -89,6 +89,7 @@ require({
                 { target: "projects", text: "Projects" },
                 { target: "skills", text: "Skills" },
                 { target: "experience", text: "Experience" },
+                { target: "education", text: "Education" },
                 { target: "certifications", text: "Certifications" },
                 { target: "blog", text: "Blog" },
                 { target: "contact", text: "Contact Me" }
