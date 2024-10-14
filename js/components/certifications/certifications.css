@@ -11,7 +11,20 @@
 .certificate {
     position: relative;
     display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.certificate__row {
+    display: flex;
     flex-wrap: wrap;
+}
+
+.certificate__download {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .certificate__title {
@@ -27,6 +40,7 @@
     width: 100%;
     margin-top: 8px;
     color: var(--mdc-theme-text-hint-on-dark);
+    height: 20px;
 }
 
 .certificate svg {
