@@ -1,0 +1,39 @@
+﻿.menu {
+    --mdc-theme-primary: var(--mdc-theme-surface);
+}
+
+.menu__item {
+    border-radius: 18px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.menu__item span {
+    pointer-events: none;
+}
+
+.drawer__item {
+    color: var(--mdc-theme-text-primary-on-dark) !important;
+}
+
+.drawer__item:hover {
+    text-decoration: none !important;
+}
+
+.menu__drawer-button {
+    display: none;
+}
+
+@media (max-width: 599px) {
+    .menu__drawer-button {
+        display: inline-block;
+    }
+
+    .menu__item {
+        display: none;
+    }
+
+    .menu__title {
+        display: none;
+    }
+}

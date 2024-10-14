@@ -12,6 +12,7 @@ define([
 
     //#region [ Component registration ]
 
+    ko.components.register("msu-menu", { require: "msu/components/menu/menu" });
     ko.components.register("msu-intro", { require: "msu/components/intro/intro" });
     ko.components.register("msu-projects", { require: "msu/components/projects/projects" });
     ko.components.register("msu-timeline", { require: "msu/components/timeline/timeline" });

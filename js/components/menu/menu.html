@@ -1,0 +1,40 @@
+﻿<div>
+    <div class="drawer mdc-drawer mdc-drawer--modal">
+        <div class="mdc-drawer__header" data-bind="visible: false">
+            <i class="material-icons drawer__icon">account</i>
+            <h3 class="drawer__title mdc-drawer__title"></h3>
+            <h6 class="drawer__subtitle mdc-drawer__subtitle">&nbsp;</h6>
+            <h6 class="drawer__subtitle mdc-drawer__subtitle">&nbsp;</h6>
+        </div>
+        <div class="mdc-drawer__content">
+            <nav class="mdc-deprecated-list" data-bind="foreach: items">
+                <a class="drawer__item mdc-deprecated-list-item" tabindex="0"
+                   data-bind="attr: { href: '#' + target }, click: $component.show">
+                    <span class="mdc-deprecated-list-item__ripple"></span>
+                    <span class="mdc-deprecated-list-item__text" data-bind="text: text"></span>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <div class="mdc-drawer-scrim"></div>
+    <nav class="menu mdc-top-app-bar mdc-top-app-bar--fixed">
+        <div class="mdc-top-app-bar__row container">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="menu__drawer-button mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded"
+                        data-bind="click: function() { this.drawer.open = true; }">
+                    <div class="mdc-icon-button__ripple"></div>
+                    <span class="mdc-icon-button__focus-ring"></span>
+                    menu
+                </button>
+            </section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+                     data-bind="visible: items().length, foreach: items">
+                    <a class="menu__item mdc-button mdc-button--unelevated mdc-ripple-upgraded"
+                       data-bind="attr: { href: '#' + target }, click: $component.show">
+                        <span class="menu__item-ripple mdc-button__ripple"></span>
+                        <span class="mdc-button__label" data-bind="text: text"></span>
+                    </a>
+            </section>
+        </div>
+    </nav>
+</div>

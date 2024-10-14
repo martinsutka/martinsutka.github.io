@@ -26,30 +26,31 @@
     <link rel="stylesheet" href="css/site.css" />
 </head>
 <body class="mdc-typography">
-    <div class="mdc-layout-grid">
+    <msu-menu></msu-menu>
+    <div class="mdc-layout-grid mdc-top-app-bar--fixed-adjust">
         <div class="mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="about" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-intro></msu-intro>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="projects" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-projects></msu-projects>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="skills" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-skills></msu-skills>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="experience" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-timeline params="title: experience.title, items: experience.items"></msu-timeline>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="education" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-timeline params="title: education.title, items: education.items"></msu-timeline>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="certifications" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-certifications></msu-certifications>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="blog" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-intro params="title: blog.title, description: blog.description, action: blog.action, image: blog.image"></msu-intro>
             </div>
-            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
+            <div id="contact" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 container">
                 <msu-contactform></msu-contactform>
             </div>
             <!--

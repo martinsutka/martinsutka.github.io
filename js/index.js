@@ -83,6 +83,17 @@ require({
                 }
             }
         },
+        "msu/components/menu/menu": {
+            items: [
+                { target: "about", text: "About" },
+                { target: "projects", text: "Projects" },
+                { target: "skills", text: "Skills" },
+                { target: "experience", text: "Experience" },
+                { target: "certifications", text: "Certifications" },
+                { target: "blog", text: "Blog" },
+                { target: "contact", text: "Contact Me" }
+            ]
+        },
         "msu/components/skills/skills": {
             title: "Skills",
             items: [
